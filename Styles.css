@@ -58,5 +58,7 @@ button:hover {
 
 #toggleTheme {
   background-color: var(--primary-color);
+  color: var(--bg-color);
   margin-top: 20px;
+  transition: background 0.3s, color 0.3s;
 }
